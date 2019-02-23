@@ -1,4 +1,4 @@
-rm(list = ls()) #Clears environment
+rm(list = ls()) #To Clear environment
 
 setwd("C:/College materials/Softwares/R software/Datasets") #Set corresponding dir
 dataset=read.csv("Salary_Data.csv",header=T)
